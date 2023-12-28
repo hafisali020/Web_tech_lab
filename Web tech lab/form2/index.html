@@ -1,0 +1,86 @@
+
+<!DOCTYPE html>
+<head>
+    <title>Registration</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="rg">
+    <h1>Registration Form</h1>
+    <form action="">
+        <table>
+            <tr>
+                <td> Name </td> <td>
+                    <input type="text" placeholder="Enter Your name:" name="name">
+                </td>
+                </tr>
+                <tr>
+                    <td> Email</td>
+                    <td> 
+                        <input type="email" name="email" placeholder="Enter your email" required >
+                    </td>
+                    </tr>
+                    <tr>
+                        <td> Phone</td>
+                        <td>
+                            <input type="text" name="number" placeholder="Enter your number" required pattern="[0-9]*">
+                        </td>
+                    </tr>
+                  <tr>
+                    <td>Age </td>
+                  <td>
+                    <input type="number" name="Age" min="18" max="60">
+                  </td>
+                  </tr>
+                  <tr>
+                    <td>Gender</td>
+                    <td>
+                        <input type="radio" name="gender" value="Male"> Male
+                        <input type="radio" name="gender" value="Female">Female
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Address</td>
+                    <td>
+                        <textarea name="Address" id="" cols="16" rows="6"></textarea>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Knowing language </td>
+                    <td>
+                        <select name="languages" id="">
+                            <option value="english"selected> English</option>
+                            <option value="malayalam" >Malayalam</option>
+                            <option value="hindi">Hindi</option>
+
+                        </select>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Hobby</td>
+                    <td>
+                        <input type="checkbox" name="footbal" > Footbal
+                        <input type="checkbox" name="cricket">Cricket<br>
+                        <input type ="checkbox" name="basket">Basket ball
+                    </td>
+
+                  </tr>
+                  <tr>
+                    <td>Upload Your photo</td>
+                    <td> <input type="file"> </td>
+                  </tr>
+                  <tr>
+                    <th colspan="2">
+                        <input type="submit" value="Submit">
+                    </th>
+                  </tr>
+
+        </table>
+    </form>
+    </div>
+
+    
+</body>
+</html>
+
+

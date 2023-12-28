@@ -1,0 +1,38 @@
+
+body {
+  
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+  
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .scrol {
+    font-size: 24px;
+    color: #803709;
+    padding: 10px;
+    border: 2px solid #555;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .scrol:hover {
+    background-color: #e0e0e0;
+  }
+  .animated-text {
+    font-size: 24px;
+    color: #dd752b;
+    animation: fadeInOut 5s ease-in-out infinite; 
+  }
+  
+  
+  @keyframes fadeInOut {
+    0%, 100% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1; 
+    }
+  }
